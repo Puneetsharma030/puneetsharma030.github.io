@@ -4,11 +4,11 @@
     "details": [
     {
       "appID": "T8FA2BMRWA.net.nviso.nviso-emotion-advisor",
-      "paths": ["/dispatch/*"]
+      "paths": ["/ipad_launch"]
     },
 	{
       "appID": "A6ZQHPQE6N.com.cetera.decipher",
-      "paths": ["/dispatch/*"]
+      "paths": ["/ipad_launch"]
     }
     ]
   }
