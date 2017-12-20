@@ -4,21 +4,11 @@
 		<meta charset="utf-8">
 		<title>iPad Launch</title>
 		<script>
-			function setCookie(cname, cvalue, exdays) {
-				var d = new Date();
-				d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
-				var expires = "expires="+d.toUTCString();
-				document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-			}
-			
-			function set_launch_params() 
+			function redirect() 
 			{
-				var urlParams = new URLSearchParams(window.location.search);
-				setCookie("decipher_ipad_launch_params", urlParams.toString(), 1)
-				console.log(urlParams.toString())
 				window.location = "https://itunes.apple.com/us/app/decipher-emotion-recognition/id1313445778"
 			}
-			set_launch_params()
+			redirect()
 		</script>
 	</head>
 	<body>
