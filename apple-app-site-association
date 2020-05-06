@@ -1,15 +1,27 @@
 {
-  "applinks": {
+  "applinks":
+  {
     "apps": [],
-    "details": [
-    {
-      "appID": "T8FA2BMRWA.net.nviso.nviso-emotion-advisor",
-      "paths": ["/ipad_launch", "/dispatch/*"]
-    },
-	{
-      "appID": "A6ZQHPQE6N.com.cetera.decipher",
-      "paths": ["/ipad_launch"]
-    }
+    "details":
+    [
+      {
+        "appIDs": ["T8FA2BMRWA.net.nviso.nviso-emotion-advisor", "A6ZQHPQE6N.com.cetera.decipher"],
+        "components":
+        [
+          {
+            "/": "/ipad_launch",
+            "comment": "Launch the app"
+          }
+        ],
+      },
+      {
+        "appID": "T8FA2BMRWA.net.nviso.nviso-emotion-advisor",
+        "paths": ["/ipad_launch"]
+      },
+	    {
+        "appID": "A6ZQHPQE6N.com.cetera.decipher",
+        "paths": ["/ipad_launch"]
+      }
     ]
   }
 }
